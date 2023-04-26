@@ -1,0 +1,37 @@
+.todoContainer{
+  margin-top: .8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.25em;
+  height: 1.25em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+}
+input[type="checkbox"]:checked{
+  background-color: rgb(0, 172, 0);
+}
+#todoTitle{
+  font-size: 1.5rem;
+}
+#deleteBtn{
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  color: #fafafa;
+  transition: all .2s linear;
+}
+#deleteBtn:hover {
+  color: #f00;
+  transform: scale(1.1);
+}

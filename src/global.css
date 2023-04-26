@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #333;
+  color: #fafafa;
+}
+
+main{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main h1{
+  display: flex;
+  align-items: center;
+  border: 3.5px solid #fafafa;
+  padding: 5px 4rem;
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  gap: 10px;
+}
+.todo-form{
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-input{
+  width: 24rem;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.addBtn{
+  margin-left: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  color: #fafafa;
+  font-weight: bolder;
+  transition: all .2s linear;
+}
+.addBtn:hover{
+  color: #01b83e;
+  transform: scale(1.1);
+}
+
+.todo-footer{
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+}
+.todo-footer button{
+  user-select: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 25px;
+  transition: all .1s linear;
+}
+.deleteCompletedBtn{
+  background-color: rgb(255, 123, 0);
+  color: #fff;
+}
+.deleteCompletedBtn:hover{
+  background-color: rgb(255, 153, 0);
+  transform: scale(1.1);
+}
+
+.complateAllBtn{
+  background-color: #00852c;
+  color: #fff;
+
+}
+.complateAllBtn:hover{
+  background-color: #01b83e;
+  transform: scale(1.1);
+}
+.deleteAllBtn{
+  background-color: #810000;
+  color: #fff;
+}
+.deleteAllBtn:hover{
+  background-color: #ff0000;
+  transform: scale(1.1);
+}
