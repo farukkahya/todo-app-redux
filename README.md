@@ -4,6 +4,8 @@
 
 Demo: https://gorgeous-frangollo-44a253.netlify.app/
 
+-----
+
 ## Sosyal Medya Hesaplarım :
 * **Email :**  _<farukkahya55@gmail.com>_
 * **Instagram :** _<https://www.instagram.com/farukmars_/>_
